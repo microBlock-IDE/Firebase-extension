@@ -15,10 +15,8 @@ def config(url, token):
     _token = token
 
 def _req(method = "GET", path = "/", data = None):
-    print(data)
     if data:
         data = ujson.dumps(data)
-    print(data)
     s = usocket.socket()
 
     ai = usocket.getaddrinfo(_host, 443)
