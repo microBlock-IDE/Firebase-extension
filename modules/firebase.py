@@ -15,7 +15,7 @@ def config(url, token):
     _token = token
 
 def _req(method = "GET", path = "/", data = None):
-    if data:
+    if data != None:
         data = ujson.dumps(data)
     s = usocket.socket()
 
@@ -26,14 +26,14 @@ def _req(method = "GET", path = "/", data = None):
     s.write(b"{} {}.json?auth={} HTTP/1.1\r\n".format(method, path, _token))
     s.write(b"Host: {}\r\n".format(_host))
     s.write(b"Content-Type: application/json\r\n")
-    if data:
+    if data != None:
         s.write(b"Content-Length: {}\r\n".format(len(data)))
     s.write(b"Connection: close\r\n")
     s.write(b"\r\n")
     if data:
         s.write(data)
     ros = s.read()
-    # print(ros)
+    print(ros)
     s.close()
     return ros
 
