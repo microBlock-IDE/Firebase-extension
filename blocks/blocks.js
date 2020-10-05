@@ -22,7 +22,7 @@ Blockly.defineBlocksWithJsonArray([
   "inputsInline": false,
   "previousStatement": null,
   "nextStatement": null,
-  "colour": 240,
+  "colour": "#F1C40F",
   "tooltip": "Config for connect to Firebase Realtime Database",
   "helpUrl": ""
 },
@@ -38,7 +38,7 @@ Blockly.defineBlocksWithJsonArray([
   ],
   "inputsInline": true,
   "output": null,
-  "colour": 240,
+  "colour": "#F1C40F",
   "tooltip": "Config for connect to Firebase Realtime Database",
   "helpUrl": ""
 },
@@ -59,7 +59,7 @@ Blockly.defineBlocksWithJsonArray([
   "inputsInline": true,
   "previousStatement": null,
   "nextStatement": null,
-  "colour": 240,
+  "colour": "#F1C40F",
   "tooltip": "Set data in Firebase Realtime Database",
   "helpUrl": ""
 },
@@ -80,7 +80,7 @@ Blockly.defineBlocksWithJsonArray([
   "inputsInline": true,
   "previousStatement": null,
   "nextStatement": null,
-  "colour": 240,
+  "colour": "#F1C40F",
   "tooltip": "Push new data to list in Firebase Realtime Database",
   "helpUrl": ""
 },
@@ -97,7 +97,7 @@ Blockly.defineBlocksWithJsonArray([
   "inputsInline": true,
   "previousStatement": null,
   "nextStatement": null,
-  "colour": 240,
+  "colour": "#F1C40F",
   "tooltip": "Delete data in Firebase Realtime Database",
   "helpUrl": ""
 }

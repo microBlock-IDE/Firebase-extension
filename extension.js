@@ -5,7 +5,7 @@
     category: "Communication",
     version: "1.0.0",
     icon: "/static/icon.png", // Category icon
-    color: "#3498DB", // Category color (recommend some blocks color)
+    color: "#F1C40F", // Category color (recommend some blocks color)
     blocks: [ // Blocks in Category
         {
             xml: `
