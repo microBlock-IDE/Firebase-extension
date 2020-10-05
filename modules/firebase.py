@@ -33,7 +33,7 @@ def _req(method = "GET", path = "/", data = None):
     if data:
         s.write(data)
     ros = s.read()
-    print(ros)
+    # print(ros)
     s.close()
     return ros
 
