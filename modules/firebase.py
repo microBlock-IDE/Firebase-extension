@@ -15,8 +15,10 @@ def config(url, token):
     _token = token
 
 def _req(method = "GET", path = "/", data = None):
+    print(data)
     if data:
         data = ujson.dumps(data)
+    print(data)
     s = usocket.socket()
 
     ai = usocket.getaddrinfo(_host, 443)
@@ -32,7 +34,6 @@ def _req(method = "GET", path = "/", data = None):
     s.write(b"\r\n")
     if data:
         s.write(data)
-    print(data)
     ros = s.read()
     # print(ros)
     s.close()
