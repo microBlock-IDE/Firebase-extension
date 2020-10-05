@@ -1,4 +1,4 @@
-Blockly.Python['firebase_get'] = function(block) {
+Blockly.Python['firebase_config'] = function(block) {
   Blockly.Python.definitions_['import_firebase'] = 'import firebase';
 
   var value_databaseURL = Blockly.Python.valueToCode(block, 'databaseURL', Blockly.Python.ORDER_ATOMIC);
